@@ -8,7 +8,7 @@ function Calculadora () {
         if (imc >= 1) {
             return (
                 <ul>
-                    <h2>Seu IMC é de : {imc.toFixed(1)}%</h2>
+                    <h2 className={styles.h2}>Seu IMC é de : {imc.toFixed(1)}%</h2>
                     {tabelaImc.map(({ classificacao, cor, limite }) => (
                         <li key={limite} className={cor}>
                             <p>
