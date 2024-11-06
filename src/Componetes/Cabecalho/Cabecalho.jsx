@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from './Novacabe.module.css'
+import styles from "./Cabe.module.css"
 import Calculadora from "../Calculadora/Calculadora";
 function Cabecalho(){
 
@@ -15,10 +15,10 @@ function Cabecalho(){
 
     return(
         <div>
-            <header style={{background: corHeader, border: 'solid 2px #000'}}>
+            <header className={styles.header} style={{background: corHeader, border: 'solid 2px #000'}}>
                 <div style={{display:"flex", alignItems: 'center', justifyContent: 'space-around'}}>
-                <h1 style={{color: corTexto}}>Seja Bem - Vindo</h1>
-                <button onClick={mudaCor} style={{background: cor, border: '2px solid #fff'}}></button>
+                <h1 className={styles.h1} style={{color: corTexto}}>Seja Bem - Vindo</h1>
+                <button className={styles.button} onClick={mudaCor} style={{background: cor, border: '2px solid #fff'}}></button>
                 </div>
                 <Calculadora/>
         </header>

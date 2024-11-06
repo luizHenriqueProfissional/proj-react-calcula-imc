@@ -1,4 +1,4 @@
-header{
+.header{
     top: 15%;
     left: 25%;
     padding: 15px 0 150px;
@@ -9,11 +9,11 @@ header{
     text-align: center;
     margin:  60px auto;
 }
-h1 {
+.h1 {
     font-family: sans-serif;
     color: #fff;
 }
-button{
+.button{
     background-color: #2f3640;
     width: 25px;
     height: 25px;
