@@ -1,0 +1,83 @@
+.container{
+    max-width: 500px;
+    margin: 80px auto;
+}
+.label{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.h2{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight:500;
+    color: #fff
+    
+}
+.input{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius:45px 0 45px 0;
+    border: none;
+    border: solid 1px #000;
+    margin-bottom: 20px;
+}
+
+
+.baixoPeso {
+    background-color: #4C92C3; /* Azul claro */
+    color: #fff;
+    margin-top: 20px;
+}
+
+.pesoNormal {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+}
+
+.sobrepeso {
+    background-color: #FFB74D; /* Laranja claro */
+    color: #fff;
+}
+
+.obesidadeI {
+    background-color: #FF8A65; /* Laranja intenso */
+    color: #fff;
+}
+
+.obesidadeII {
+    background-color: #F4511E; /* Vermelho alaranjado */
+    color: #fff;
+}
+
+.obesidadeIII {
+    background-color: #D32F2F; /* Vermelho escuro */
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+ul li p {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 1px 1.5px 1.5px black;
+}
+
